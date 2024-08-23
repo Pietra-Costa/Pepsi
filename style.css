@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Popins", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: .5s;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.25rem 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 5rem ;
+    margin-top: .6rem ;
+}
+
+header ul{
+    display: inline-flex;
+    gap: 2.5rem;
+
+}
+
+header ul li{
+    list-style: none;  
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    transition: .5 ease;
+}
+
+header a:hover{
+    border-bottom: 5px solid #000;
+    opacity: .8;    
+}
+
+.content{
+    display: flex;
+    width: 80.5rem ;
+    height: 31.25;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .txt-box h1{
+    color: white;
+    font-size: 6.25rem;
+}
+
+.content .txt-box h1 span{
+    font-weight: 800;
+}
+
+.txt-box p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 4.375rem;
+}
+
+.txt-box a{
+   background: white;
+   padding: 1.55rem ;
+   font-size: 20px;
+   text-decoration: none;
+   color: #0062be;
+   border-radius: 25px;
+   font-weight: 600;
+   transition: .5s;
+}
+
+.txt-box a:hover{
+    background: transparent;
+    border: solid 2px #fff;
+    color: black;
+
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10.400rem;
+    margin-top: 70px;
+}
+
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 1.25rem;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 1.25rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.thumb img{
+    max-width: 2.5rem;
+    transition: .5s ;
+}
+
+.thumb img:hover{
+    transform: scale(1.2)
+}
