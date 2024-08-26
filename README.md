@@ -19,3 +19,5 @@ Este projeto é um site interativo de refrigerantes desenvolvido com HTML, CSS e
 
 
 ## Link para vídeo
+
+https://www.linkedin.com/posts/pietra-costa-dev_novo-projeto-site-interativo-de-refrigerantes-activity-7233923268724875264-CdAY?utm_source=share&utm_medium=member_desktop
